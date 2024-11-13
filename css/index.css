@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+3D&family=Yarndings+20&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2, p{
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #FFFFFF;
+    width: 430px;
+    margin: 0 auto;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+header p{
+    color: #6A6A6A;
+
+}
+
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-logo{
+    height: fit-content;
+    width: auto;
+}
+.profile-img{
+    border-radius: 1rem;
+}
+
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar-all{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    height: 1.7rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    border-radius: 1rem;
+}
+
+.search-slider{
+    background-color: #EF2A39;
+    padding: .9rem;
+    border-radius: 1.5rem;
+}
+
+
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+   
+    padding: 1rem;
+    border-radius: 1rem;
+
+    cursor: pointer;
+}
+
+.menu-item-img{
+    display: flex;
+    width: 100%;
+}
+
+.menu-item-img img{
+    margin: 0 auto;
+    height: 6rem;
+    width: auto;
+}
+
+
+.menu-item-name h2{
+    font-size: 1rem;
+}
+
+.menu-rating{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-rating-star{
+    display: flex;
+}
+
+.menu-rating-star img{
+    height: 1rem;
+    width: auto;
+    margin-right: .3rem;
+}
+
+/* --------------------------------------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    position: relative;
+}
+
+/* .footer-style{
+
+} */
+
+.plus{
+    background-color: #EF2A39;
+    position: absolute;
+    padding: 1.9rem;
+    border-radius: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    bottom: 3.3rem;
+    left: 40.5% ;
+}
